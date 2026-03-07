@@ -31,6 +31,7 @@
   flex-direction: column;
   /*flex-direction: column-reverse;*/
   gap: 1em;
+  min-width: max-content;
 }
 
 table {
