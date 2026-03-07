@@ -2,7 +2,6 @@ import "@fontsource/iosevka";
 import "gardevoir";
 import "./style.css";
 import MaterialSymbolsAsterisk from "./MaterialSymbolsAsterisk.svg";
-import "leader-line";
 
 import "./types";
 import { assert } from "./types/utils";
@@ -154,19 +153,21 @@ const linesData = [
   { a: "#testTable #preview_name_lat_a", b: "#preview_name_lat_b" },
 ];
 
-const lines = linesData.map(
-  (lineData) =>
-    new window.LeaderLine(
-      document.querySelector(lineData.a),
-      document.querySelector(lineData.b),
-    ),
-);
+window.addEventListener("DOMContentLoaded", () => {
+  const lines = linesData.map(
+    (lineData) =>
+      new window.LeaderLine(
+        document.querySelector(lineData.a),
+        document.querySelector(lineData.b),
+      ),
+  );
 
-[0, 1, 2].forEach((index) => {
-  lines[index].setOptions({
-    startSocket: "top",
-    endSocket: "left",
-    startSocketGravity: [0, 0],
-    endSocketGravity: [-180, -50],
+  [0, 1, 2].forEach((index) => {
+    lines[index].setOptions({
+      startSocket: "top",
+      endSocket: "left",
+      startSocketGravity: [0, 0],
+      endSocketGravity: [-180, -50],
+    });
   });
 });

@@ -3,5 +3,3 @@ declare global {
     LeaderLine: any;
   }
 }
-
-window.LeaderLine = window.LeaderLine || {};
