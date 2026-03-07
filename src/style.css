@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "GOST Type BU";
+  src: url("./GOST_BU.ttf") format("truetype");
+}
+
 :root {
   font-family: "GOST Type BU", Consolas, Iosevka, monospace;
   font-size: 12px;
