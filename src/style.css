@@ -218,6 +218,10 @@ th {
   flex-direction: row-reverse;
 }
 
+.cellDataFirstBlock {
+  margin: 0 0.3em;
+}
+
 .cell_bElement .cellDataFirstBlock {
   text-align: right;
 }
