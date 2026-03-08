@@ -192,6 +192,11 @@ th {
   padding: 0.1em;
   font-size: 0.8em;
   line-height: 0.9;
+  text-align: right;
+}
+
+.cell_bElement .cellElectrons {
+  text-align: left;
 }
 
 .cellOther {
