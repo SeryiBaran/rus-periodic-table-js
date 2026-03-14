@@ -234,6 +234,7 @@ download_tables_btn.addEventListener("click", () => {
   let html = download_tables_btn.innerHTML;
 
   download_tables_btn.innerHTML = "Подождите...";
+  tablesContainer.classList.add("scaleUp");
 
   setTimeout(() => {
     htmlToImage
@@ -246,6 +247,7 @@ download_tables_btn.addEventListener("click", () => {
       })
       .finally(() => {
         download_tables_btn.innerHTML = html;
+        tablesContainer.classList.remove("scaleUp");
       });
   }, 200);
 });

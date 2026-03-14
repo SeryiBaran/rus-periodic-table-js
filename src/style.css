@@ -13,6 +13,10 @@
   --f-bg: #303030;
 }
 
+.scaleUp {
+  font-size: 300%;
+}
+
 .hidden {
   display: none;
   visibility: hidden;
