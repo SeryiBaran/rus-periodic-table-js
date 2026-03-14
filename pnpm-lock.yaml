@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@fontsource/iosevka':
-        specifier: ^5.2.5
-        version: 5.2.5
       downloadjs:
         specifier: ^1.4.7
         version: 1.4.7
@@ -200,9 +197,6 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
-
-  '@fontsource/iosevka@5.2.5':
-    resolution: {integrity: sha512-Zv/UHJodDug1LcnWv2u2+GPp3oWP3U6Xp16cJOsqqZQNsCu8sA/ttT331N0NypxBZ+7c8szlSRlYDcy9liZ8pw==}
 
   '@napi-rs/wasm-runtime@1.1.1':
     resolution: {integrity: sha512-p64ah1M1ld8xjWv3qbvFwHiFVWrq1yFvV4f7w+mzaqiR4IlSgkqhcRdHwsGgomwzBH51sRY4NEowLxnaBjcW/A==}
@@ -602,8 +596,6 @@ snapshots:
 
   '@esbuild/win32-x64@0.27.3':
     optional: true
-
-  '@fontsource/iosevka@5.2.5': {}
 
   '@napi-rs/wasm-runtime@1.1.1':
     dependencies:
