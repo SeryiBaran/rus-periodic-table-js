@@ -16,6 +16,6 @@
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
 
     "types": ["unplugin-icons/types/vue"],
-    "lib": ["ES2021"]
+    "lib": ["DOM", "ESNext"]
   }
 }
